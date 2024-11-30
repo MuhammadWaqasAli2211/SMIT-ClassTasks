@@ -1,0 +1,127 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Main container styling */
+.container {
+    width: 100%;
+    max-width: 600px;
+    /* Maximum width for large screens */
+    margin: auto;
+    background: rgba(255, 255, 255, 0.5);
+    /* Semi-transparent background */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    backdrop-filter: blur(10px);
+    border: 4px solid navy;
+    /* Blur effect */
+    box-shadow: 0px 0px 220px 108px rgba(237, 221, 221, 0.56);
+    -webkit-box-shadow: 0px 0px 220px 108px rgba(237, 221, 221, 0.56);
+    -moz-box-shadow: 0px 0px 220px 108px rgba(237, 221, 221, 0.56);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 1000;
+    text-align: center;
+    color: black;
+    text-shadow: 0px 0px 17px rgba(9, 0, 0, 1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input fields, select, textarea styling */
+input,
+select,
+textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    /* Semi-transparent border */
+    border-radius: 4px;
+    width: 100%;
+    /* Full-width for all inputs */
+    background: rgba(255, 255, 255, 0.3);
+    /* Transparent input background */
+    backdrop-filter: blur(5px);
+    /* Blur effect for inputs */
+    color: #333;
+    border: 2px outset navy;
+    /* Text color */
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: navy;
+    /* White label text */
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+/* Submit button styling */
+button {
+    padding: 10px;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    /* Full-width for the button */
+}
+
+button:hover {
+    background-color: #fff;
+    color: navy;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Mobile view: For devices with max width of 768px */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+}
+
+/* Small mobile view: For devices with max width of 480px */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 14px;
+        /* Slightly smaller font for smaller screens */
+        padding: 8px;
+        /* Smaller padding for smaller screens */
+    }
+
+    button {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+}

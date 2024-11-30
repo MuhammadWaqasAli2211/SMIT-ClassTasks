@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px inset green;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 33px 5px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 3px 2px 33px 5px rgba(0, 0, 0, 0.5) inset;
+    -moz-box-shadow: 3px 2px 33px 5px rgba(0, 0, 0, 0.5) inset;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.column {
+    display: flex;
+    gap: 10px;
+}
+
+.column button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+}
+
+#submit {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    color: white;
+    background-color: green;
+    text-shadow: 0 0 25px green, 0 0 40px green;
+    transform: scale(1.02);
+    box-shadow: 0 0 15px green, 0 0 30px green;
+    filter: brightness(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+#remover {
+    padding: 10px;
+    border: none;
+    background-color: #ff3333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-shadow: 0 0 10px #ff3333, 0 0 20px #ff3333;
+    transition: all 0.3s ease-in-out;
+}
+
+#remover:hover {
+    background-color: #ff3333;
+    text-shadow: 0 0 25px #ff3333, 0 0 40px #ff6666;
+    transform: scale(1.02);
+    box-shadow: 0 0 15px #ff3333, 0 0 30px #ff6666;
+    filter: brightness(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.task {
+    color: black;
+    border: 2px outset green;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}

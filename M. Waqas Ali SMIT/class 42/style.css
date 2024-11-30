@@ -1,0 +1,11 @@
+#btn1,#btn2,#getInputValue{
+    color: red;
+    padding: 10px 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background: #000;
+    margin-top: 10px;
+}
+#getInputValue{
+    padding: 10px 45px;
+}
